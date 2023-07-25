@@ -1,0 +1,52 @@
+// @import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
+
+.modal_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.modal_wrapper.open {
+  height: 100%;
+  display: block;
+}
+.modal_wrapper.close {
+  height: 0;
+  display: none;
+}
+
+.modal_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal_body {
+  font-size: 17px;
+  font-family: "Caxton";
+  box-shadow: 10px 10px 15px #bfbfbf, -14px -14px 20px #bfbfbf;
+  max-width: 500px;
+  margin: auto;
+  background: rgb(156, 35, 35);
+  margin-top: 5%;
+  padding: 30px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  @media (max-width: 760px) {
+    max-width: 300px;
+    font-size: 12px;
+  }
+}
+
+.modal_close {
+  font-size: 20px;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+}
+.modal_close:hover {
+  color: rgb(58, 53, 53);
+}

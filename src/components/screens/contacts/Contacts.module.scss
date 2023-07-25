@@ -1,0 +1,27 @@
+.contacts::before {
+  content: "";
+  background-image: url(../../../../public/delicious-wine.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.wrapper {
+  text-align: center;
+  margin-top: 10%;
+  color: #2b2020;
+  p,
+  h3 {
+    font-family: "Caxton";
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  a {
+    color: #000;
+  }
+}

@@ -1,0 +1,52 @@
+.wrapper {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img_wrapper {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  img {
+    max-width: 400px;
+    object-fit: cover;
+    margin-right: 50px;
+    @media (max-width: 760px) {
+      max-width: 300px;
+    }
+  }
+  @media (max-width: 760px) {
+    flex-wrap: wrap;
+    font-size: 16px;
+  }
+}
+.name {
+  font-size: 70px;
+  font-weight: 300;
+  @media (max-width: 760px) {
+    font-size: 40px;
+  }
+}
+.year {
+  font-size: 50px;
+  font-family: serif;
+  color: #4d1d25;
+  &Small {
+    font-family: serif;
+    font-size: 25px;
+  }
+}
+.prev,
+.next {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 50px;
+  padding: 5px 20px;
+  border-radius: 100px;
+  transition: 0.5s;
+  &:hover {
+    box-shadow: 5px 7px 14px rgb(143, 16, 16), -5px -7px 14px rgb(143, 16, 16);
+  }
+}

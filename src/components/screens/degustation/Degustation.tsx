@@ -1,0 +1,50 @@
+import { FC } from "react";
+import styles from "./Degustation.module.scss";
+import Layout from "@/components/layout/Layout";
+
+const Degustation: FC = () => {
+  return (
+    <Layout>
+      <div className={styles.degustation}>
+        <h3>ми пропонуємо</h3>
+        <h1>
+          смакуйте <br /> знання
+        </h1>
+        <ul className={styles.list}>
+          <li>
+            <p>Професійна дегустація вин та інших спиртних напоїв</p>
+            <hr />
+          </li>
+          <li>
+            <p>Виїзні дегустації на заходах</p>
+            <hr />
+          </li>
+          <li>
+            <p>Майстер-класи з вин та віски для широкої аудиторії</p>
+            <hr />
+          </li>
+          <li>
+            <p>Навчання персоналу виноторгових компаній та HoReCa</p>
+            <hr />
+          </li>
+          <li>
+            <p>Складання винної картки для заходів</p>
+            <hr />
+          </li>
+          <li>
+            <p>Персональний підбір вин для винного погребу або на подарунок</p>
+            <hr />
+          </li>
+          <li>
+            <p>
+              Екскурсії на виноробню з дегустацією вина для компанії (від 4-х
+              осіб)
+            </p>
+            <hr />
+          </li>
+        </ul>
+      </div>
+    </Layout>
+  );
+};
+export default Degustation;

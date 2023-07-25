@@ -1,0 +1,59 @@
+import Link from "next/link";
+import { FC, useState } from "react";
+import styles from "./Header.module.scss";
+import { useRouter } from "next/router";
+import Image from "next/image";
+
+const Header: FC = () => {
+  // const { pathname } = useRouter();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <header className={styles.header}>
+      {/* <Link href='/'>
+        <Image priority src='/logo.png' alt='' width={70} height={70} />
+      </Link> */}
+      <Link href='/'>
+        <Image priority src='/WF.svg' alt='' width={120} height={120} />
+      </Link>
+      <div className={styles.burgerMenu}>
+        <button className={styles.burgerButton} onClick={handleMenuClick}>
+          <Image
+            src={isMenuOpen ? "/menu_close.svg" : "/menu_open.svg"}
+            alt='Burger Menu'
+            width={40}
+            height={40}
+          />
+        </button>
+        <nav className={`${styles.headerNav} ${isMenuOpen ? styles.open : ""}`}>
+          <div>
+            <Link className={styles.link} href='/about'>
+              Про нас
+            </Link>
+          </div>
+          <div>
+            <Link className={styles.link} href='/degustation'>
+              Дегустації
+            </Link>
+          </div>
+          <div>
+            <Link className={styles.link} href='/contacts'>
+              Контакти
+            </Link>
+          </div>
+          <div>
+            <Link className={styles.link} href='/gallery'>
+              Галерея
+            </Link>
+          </div>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
