@@ -1,39 +1,48 @@
 import { FC } from "react";
-import GallerySlider from "./GallerySlider";
 import styles from "./Gallery.module.scss";
 import Layout from "@/components/layout/Layout";
-import GalleryCarousel from "./GallerySlider";
-const Gallery: FC = () => {
-  const images: string[] = [
-    "/slides/slide1.jpeg",
-    "/slides/slide2.jpeg",
-    "/slides/slide3.jpeg",
-    "/slides/slide4.png",
-    "/slides/slide5.jpeg",
-    "/slides/slide6.jpeg",
-    "/slides/slide7.png",
-    "/slides/slide8.jpeg",
-    "/slides/slide9.jpg",
-    "/slides/slide10.jpg",
-    "/slides/slide11.jpeg",
-    "/slides/slide12.jpg",
-    "/slides/slide13.jpeg",
-    "/slides/slide14.png",
-    "/slides/slide15.jpeg",
-    "/slides/slide16.jpeg",
-    "/slides/slide17.jpeg",
-    "/slides/slide18.png",
-    "/slides/slide19.jpg",
-    "/slides/slide20.jpeg",
-    "/slides/slide21.jpeg",
-    "/slides/slide22.jpg",
-  ];
 
+const Gallery: FC = () => {
   return (
     <Layout>
       <div className={styles.gallery}>
-        <div>
-          <GallerySlider images={images} />
+        <div className={styles.grid}>
+          <div className={styles.image}>
+            <img width={400} height={200} src='/slides/slide10.jpg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide2.jpeg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide3.jpeg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={400} height={200} src='/slides/slide11.jpeg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide12.jpg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide21.jpeg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide22.jpg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide7.png' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide17.jpeg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide18.png' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide15.jpeg' alt='' />
+          </div>
+          <div className={styles.image}>
+            <img width={200} height={300} src='/slides/slide19.jpg' alt='' />
+          </div>
         </div>
       </div>
     </Layout>

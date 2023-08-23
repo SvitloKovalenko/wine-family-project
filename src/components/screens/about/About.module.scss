@@ -1,10 +1,20 @@
 .about {
-  background-image: url(../../../../public/about_bg.png);
-  background-size: auto;
+  background-image: url(../../../../public/about.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(196, 196, 196, 0.5);
   padding-top: 100px;
   padding-right: 40px;
   padding-left: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
+  @media (max-width: 760px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  h1 {
+    font-size: 50px;
+    @media (max-width: 760px) {
+      font-size: 30px;
+    }
+  }
 }

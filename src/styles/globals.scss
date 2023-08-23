@@ -7,16 +7,21 @@
   margin: 0;
 }
 
-@font-face {
-  font-family: "Caxton";
-  src: url("../../public/font/0891Eur.ttf");
-}
+// @font-face {
+//   font-family: "Caxton";
+//   src: url("../../public/font/0891Eur.ttf");
+// }
 body {
+  box-sizing: inherit;
   text-transform: uppercase;
   font-family: "Caxton";
   font-size: 20px;
   font-weight: 400;
   color: #000;
+}
+
+main {
+  max-width: 760px;
 }
 
 a {

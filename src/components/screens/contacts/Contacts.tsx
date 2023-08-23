@@ -11,7 +11,7 @@ const Contacts: FC = () => {
             Personal sommelier
             <br /> 📍Kyiv, Ukraine
             <p>for all requests for cooperation </p>
-            <a href='malito:olhahirman@gmail.com'>📩 Send Email </a>
+            <a href='mailto:olhahirman@gmail.com'>📩 Send Email </a>
             <p>
               Call us at: <br />
               <span> Hirman Sergiy:</span>

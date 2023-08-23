@@ -1,25 +1,43 @@
-.contacts::before {
-  content: "";
-  background-image: url(../../../../public/delicious-wine.jpg);
+// .contacts::before {
+//   content: "";
+//   background-image: url(../../../../public/wine.jpg);
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 800px;
+//   opacity: 0.8;
+//   z-index: -1;
+// }
+.contacts {
+  background-image: url(../../../../public/wine.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+  padding-top: 70px;
+  padding-bottom: 150px;
 }
 .wrapper {
   text-align: center;
-  margin-top: 10%;
   color: #2b2020;
+  padding-top: 100px;
+  padding-bottom: 100px;
   p,
   h3 {
     font-family: "Caxton";
-    font-size: 30px;
     margin-top: 10px;
+    @media (max-width: 760px) {
+      font-size: 14px;
+    }
+    @media (min-width: 761px) {
+      font-size: 20px;
+    }
+    @media (min-width: 990px) {
+      font-size: 30px;
+    }
   }
   a {
     color: #000;

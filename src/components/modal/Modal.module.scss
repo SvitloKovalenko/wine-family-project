@@ -1,5 +1,3 @@
-// @import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
-
 .modal_wrapper {
   position: fixed;
   top: 0;
@@ -23,10 +21,10 @@
 }
 
 .modal_body {
-  font-size: 17px;
+  font-size: 14px;
   font-family: "Caxton";
   box-shadow: 10px 10px 15px #bfbfbf, -14px -14px 20px #bfbfbf;
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
   background: rgb(156, 35, 35);
   margin-top: 5%;
@@ -36,7 +34,7 @@
   text-align: center;
   @media (max-width: 760px) {
     max-width: 300px;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
