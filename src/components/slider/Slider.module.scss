@@ -5,6 +5,8 @@
   align-items: center;
   @media (max-width: 760px) {
     margin-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 .img_wrapper {
@@ -51,6 +53,10 @@
   color: #696363;
   &:hover {
     box-shadow: 3px 5px 12px rgb(143, 16, 16), -3px -5px 12px rgb(143, 16, 16);
+  }
+  @media (max-width: 760px) {
+    font-size: 20px;
+    padding: 0 5px;
   }
 }
 .description {
