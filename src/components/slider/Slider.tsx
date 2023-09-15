@@ -13,8 +13,7 @@ const Slider = () => {
           <p className={styles.description}>
             <br />
             <span className={styles.year}>2021</span> - Переможниця XІX-го
-            Всеукраїнського конкурсу 'Український сомельє{" "}
-            <span className={styles.yearSmall}>2021</span>' <br />
+            Всеукраїнського конкурсу 'Український сомельє 2021' <br />
             <br />
             <span className={styles.year}>2019</span> - Фіналістка конкурсу
             'Кращий сомельє України' <br />
@@ -33,17 +32,16 @@ const Slider = () => {
           <p className={styles.description}>
             <br />
             <span className={styles.year}>2021</span> - Півфіналіст конкурсу
-            'Найкращий сомельє України'
-            <span className={styles.yearSmall}>2021</span> року'
+            'Найкращий сомельє України' 2021 року'
             <br />
             <br />
             <span className={styles.year}>2020</span> - Переможець XVIII-го
-            Всеукраїнського конкурсу 'Український сомельє -{" "}
-            <span className={styles.yearSmall}>2020</span>'<br />
+            Всеукраїнського конкурсу 'Український сомельє - 2020'
+            <br />
             <br />
             <span className={styles.year}>2019</span> - Півфіналіст XVII
-            Всеукраїнського конкурсу 'Сомельє та виноробів{" "}
-            <span className={styles.yearSmall}>2019</span> року' <br /> <hr />
+            Всеукраїнського конкурсу 'Сомельє та виноробів 2019 року' <br />{" "}
+            <hr />
             Робота з найбільшою колекцією віскі у Західній Європі.
           </p>
         </>
