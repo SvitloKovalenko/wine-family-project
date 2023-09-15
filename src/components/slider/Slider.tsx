@@ -5,7 +5,7 @@ const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
     {
-      image: "olia.jpg",
+      image: "olha.jpg",
       description: (
         <>
           <h3 className={styles.name}>Гірман Ольга</h3>

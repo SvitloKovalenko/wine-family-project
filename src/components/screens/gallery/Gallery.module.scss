@@ -14,13 +14,15 @@
     justify-content: center;
     margin-left: 5%;
 
-    img {
-      width: auto;
-      height: 450px;
-      margin: 10px;
-      @media (max-width: 760px) {
-        height: 250px;
-        margin: 5px;
+    .image {
+      img {
+        width: auto;
+        height: 450px;
+        margin: 10px;
+        @media (max-width: 760px) {
+          height: 250px;
+          margin: 5px;
+        }
       }
     }
   }
