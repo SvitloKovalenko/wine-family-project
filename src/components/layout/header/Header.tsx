@@ -1,11 +1,9 @@
 import Link from "next/link";
 import { FC, useState } from "react";
 import styles from "./Header.module.scss";
-import { useRouter } from "next/router";
 import Image from "next/image";
 
 const Header: FC = () => {
-  // const { pathname } = useRouter();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuClick = () => {

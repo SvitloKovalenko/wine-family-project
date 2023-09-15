@@ -8,13 +8,17 @@ const Slider = () => {
       image: "ola.jpg",
       description: (
         <>
+          <br />
           <h3 className={styles.name}>Гірман Ольга</h3>
-          <p>
+          <p className={styles.description}>
+            <br />
             <span className={styles.year}>2021</span> - Переможниця XІX-го
             Всеукраїнського конкурсу 'Український сомельє{" "}
-            <span className={styles.yearSmall}>2021</span>' <br />{" "}
+            <span className={styles.yearSmall}>2021</span>' <br />
+            <br />
             <span className={styles.year}>2019</span> - Фіналістка конкурсу
             'Кращий сомельє України' <br />
+            <br />
             <span className={styles.year}>2019</span> - Maitre fromager
           </p>
         </>
@@ -24,15 +28,19 @@ const Slider = () => {
       image: "serg1.jpg",
       description: (
         <>
+          <br />
           <h3 className={styles.name}>Гірман Сергій</h3>
-          <p>
+          <p className={styles.description}>
+            <br />
             <span className={styles.year}>2021</span> - Півфіналіст конкурсу
             'Найкращий сомельє України'
             <span className={styles.yearSmall}>2021</span> року'
             <br />
+            <br />
             <span className={styles.year}>2020</span> - Переможець XVIII-го
             Всеукраїнського конкурсу 'Український сомельє -{" "}
             <span className={styles.yearSmall}>2020</span>'<br />
+            <br />
             <span className={styles.year}>2019</span> - Півфіналіст XVII
             Всеукраїнського конкурсу 'Сомельє та виноробів{" "}
             <span className={styles.yearSmall}>2019</span> року' <br /> <hr />

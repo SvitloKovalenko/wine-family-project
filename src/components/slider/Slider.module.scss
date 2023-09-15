@@ -32,7 +32,7 @@
   }
 }
 .year {
-  font-size: 40px;
+  font-size: 30px;
   font-family: serif;
   color: #4d1d25;
   &Small {
@@ -52,5 +52,12 @@
   color: #696363;
   &:hover {
     box-shadow: 3px 5px 12px rgb(143, 16, 16), -3px -5px 12px rgb(143, 16, 16);
+  }
+}
+.description {
+  font-size: 20px;
+  font-weight: 300;
+  @media (max-width: 760px) {
+    font-size: 14px;
   }
 }
