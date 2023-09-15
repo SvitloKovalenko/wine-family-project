@@ -1,17 +1,15 @@
 .home {
-  width: 100%;
   min-height: 668px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
   background-image: url(../../../../public/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  padding-right: 77px;
-  padding-left: 77px;
+  padding-right: 40px;
+  padding-left: 40px;
   .titles {
     width: 700px;
   }
@@ -43,6 +41,5 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-evenly;
-    width: 500px;
   }
 }
