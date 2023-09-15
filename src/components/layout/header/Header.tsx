@@ -15,7 +15,7 @@ const Header: FC = () => {
   return (
     <header className={styles.header}>
       <Link href='/'>
-        <Image priority src='/wf.svg' alt='' width={150} height={100} />
+        <Image priority src='/logoWF.svg' alt='' width={150} height={100} />
       </Link>
       <div className={styles.burgerMenu}>
         <button className={styles.burgerButton} onClick={handleMenuClick}>
