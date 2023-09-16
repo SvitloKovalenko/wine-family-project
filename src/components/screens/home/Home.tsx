@@ -2,7 +2,6 @@ import { FC, useState } from "react";
 import Image from "next/image";
 import { Baskervville } from "next/font/google";
 import styles from "./Home.module.scss";
-import Layout from "@/components/layout/Layout";
 import { Modal } from "@/components/modal/Modal";
 import { Button } from "@/components/modal/Button/Button";
 
@@ -22,18 +21,15 @@ const Home: FC = () => {
   };
 
   return (
-    <Layout>
-      <div className={styles.home}>
-        <div className={styles.titles}>
-          <h1 className={baskervville.className}>
-            Wine <br />
-            Family
-          </h1>
-          <h3>
-            Вино, що запам'ятовується: перевершуйте смакові межі з нашими
-            сомельє
-          </h3>
-        </div>
+    <div className={styles.home}>
+      <div className={styles.wrapper}>
+        <h1 className={baskervville.className}>
+          Wine <br />
+          Family
+        </h1>
+        <h3>
+          Вино, що запам'ятовується: перевершуйте смакові межі з нашими сомельє
+        </h3>
         <div>
           <Button
             onClick={() =>
@@ -51,7 +47,7 @@ const Home: FC = () => {
           />
         </div>
       </div>
-    </Layout>
+    </div>
   );
 };
 export default Home;

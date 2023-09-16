@@ -8,7 +8,6 @@ const Slider = () => {
       image: "ola.jpg",
       description: (
         <>
-          <br />
           <h3 className={styles.name}>Гірман Ольга</h3>
           <p className={styles.description}>
             <br />
@@ -27,7 +26,6 @@ const Slider = () => {
       image: "serg1.jpg",
       description: (
         <>
-          <br />
           <h3 className={styles.name}>Гірман Сергій</h3>
           <p className={styles.description}>
             <br />

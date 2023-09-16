@@ -1,13 +1,12 @@
 import { FC } from "react";
 import styles from "./Degustation.module.scss";
-import Layout from "@/components/layout/Layout";
 
 const Degustation: FC = () => {
   return (
-    <Layout>
-      <div className={styles.degustation}>
-        {/* <h3>ми пропонуємо</h3> */}
-        <h1>смакуйте знання</h1>
+    <div className={styles.degustation}>
+      <div className={styles.wrapper}>
+        <h3>смакуйте знання</h3>
+        <h2>наші послуги:</h2>
         <ul className={styles.list}>
           <li>
             <p>Професійна дегустація вин та інших спиртних напоїв</p>
@@ -42,7 +41,7 @@ const Degustation: FC = () => {
           </li>
         </ul>
       </div>
-    </Layout>
+    </div>
   );
 };
 export default Degustation;

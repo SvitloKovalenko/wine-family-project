@@ -10,16 +10,12 @@
 body {
   box-sizing: inherit;
   text-transform: uppercase;
-  font-family: "Caxton";
+  font-family: Baskervville;
   font-size: 20px;
   font-weight: 400;
   color: #000;
   width: 100%;
   max-width: 2100px;
-}
-
-main {
-  max-width: 760px;
 }
 
 a {
@@ -30,10 +26,6 @@ a {
 ul,
 li {
   list-style-type: none;
-}
-
-.wrapper {
-  max-width: 1200px;
 }
 
 h1 {

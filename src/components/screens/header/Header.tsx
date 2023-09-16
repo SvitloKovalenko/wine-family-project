@@ -15,16 +15,16 @@ const Header: FC = () => {
       <Link href='/'>
         <Image priority src='/logoWF.svg' alt='' width={150} height={100} />
       </Link>
-      <div className={styles.burgerMenu}>
-        <button className={styles.burgerButton} onClick={handleMenuClick}>
+      {/* <div className={styles.burgerMenu}> */}
+      {/* <button className={styles.burgerButton} onClick={handleMenuClick}>
           <Image
             src={isMenuOpen ? "/menu_close.svg" : "/menu_open.svg"}
             alt='Burger Menu'
             width={40}
             height={40}
           />
-        </button>
-        <nav className={`${styles.headerNav} ${isMenuOpen ? styles.open : ""}`}>
+        </button> */}
+      {/* <nav className={`${styles.headerNav} ${isMenuOpen ? styles.open : ""}`}>
           <div>
             <Link className={styles.link} href='/about'>
               Про нас
@@ -46,7 +46,7 @@ const Header: FC = () => {
             </Link>
           </div>
         </nav>
-      </div>
+      </div> */}
     </header>
   );
 };

@@ -1,40 +1,40 @@
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-right: 5vh;
+  padding-left: 5vh;
+}
 .home {
   min-height: 668px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   background-image: url(../../../../public/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  padding-right: 40px;
-  padding-left: 40px;
-  .titles {
-    width: 700px;
-  }
+
   h3 {
     text-transform: uppercase;
     color: #000;
-    margin-left: 40px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
+    margin-bottom: 5vh;
     @media (max-width: 760px) {
       font-size: 14px;
     }
   }
   h1 {
+    margin-bottom: 10vh;
+
     @media (max-width: 760px) {
-      margin-bottom: 50px;
       font-size: 50px;
     }
     @media (min-width: 761px) {
       font-size: 60px;
-      margin-bottom: 30px;
     }
     @media (min-width: 990px) {
       font-size: 90px;
-      margin-bottom: 90px;
     }
   }
   @media (max-width: 760px) {

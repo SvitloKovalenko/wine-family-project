@@ -3,23 +3,23 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
-  padding-top: 70px;
-  padding-bottom: 150px;
+  height: 600px;
+  padding-top: 10vh;
+  padding-bottom: 30vh;
 }
 .wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-right: 5vh;
+  padding-left: 5vh;
   text-align: center;
   color: #2b2020;
-  padding-top: 100px;
-  padding-bottom: 100px;
+
   p,
   h3 {
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: 3vh;
     @media (max-width: 760px) {
-      font-size: 14px;
-    }
-    @media (min-width: 761px) {
       font-size: 16px;
     }
     @media (min-width: 990px) {

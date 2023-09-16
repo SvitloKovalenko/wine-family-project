@@ -1,40 +1,37 @@
 .wrapper {
-  margin-top: 70px;
+  margin-top: 10vh;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  margin-bottom: 10vh;
   @media (max-width: 760px) {
-    margin-top: 40px;
-    padding-right: 10px;
-    padding-left: 10px;
+    margin-bottom: 80vh;
   }
 }
 .img_wrapper {
-  width: 700px;
   display: flex;
-  justify-content: center;
+  // max-width: 700px;
   img {
-    max-width: 300px;
     object-fit: cover;
     margin-right: 50px;
     @media (max-width: 760px) {
-      max-width: 170px;
+      max-width: 250px;
     }
   }
   @media (max-width: 760px) {
     flex-wrap: wrap;
     font-size: 14px;
+    max-width: 300px;
   }
 }
 .name {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   @media (max-width: 760px) {
     font-size: 20px;
   }
 }
 .year {
-  font-size: 30px;
+  font-size: 25px;
   font-family: serif;
   color: #4d1d25;
   @media (max-width: 760px) {

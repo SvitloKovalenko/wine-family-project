@@ -2,7 +2,6 @@ import { FC } from "react";
 import styles from "./Button.module.scss";
 
 interface ButtonProps {
-  //   style?: React.CSSProperties;
   onClick?: () => void;
   text: string;
 }

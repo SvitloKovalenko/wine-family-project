@@ -1,25 +1,27 @@
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-right: 5vh;
+  padding-left: 5vh;
+}
 .gallery {
-  background-image: url(../../../../public/blur.png);
+  background-image: url(../../../../public/moment.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(196, 196, 196, 0.9);
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   .grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 5%;
-
     .image {
       img {
         width: auto;
-        height: 450px;
+        height: 250px;
         margin: 10px;
         @media (max-width: 760px) {
-          height: 250px;
+          height: 200px;
           margin: 5px;
         }
       }

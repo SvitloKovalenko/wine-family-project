@@ -1,17 +1,22 @@
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-right: 5vh;
+  padding-left: 5vh;
+  padding-top: 10vh;
+}
 .about {
   background-image: url(../../../../public/taste.jpg);
   background-size: auto;
   background-repeat: no-repeat;
   background-color: rgba(196, 196, 196, 0.5);
-  padding-top: 100px;
-  padding-right: 40px;
-  padding-left: 40px;
   padding-bottom: 150px;
   @media (max-width: 760px) {
-    padding-top: 50px;
+    max-width: 500px;
     padding-bottom: 50px;
   }
-  h1 {
+  h3 {
+    margin-top: 5vh;
     font-size: 50px;
     @media (max-width: 760px) {
       font-size: 30px;
