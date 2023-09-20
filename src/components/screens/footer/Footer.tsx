@@ -4,8 +4,10 @@ import styles from "./Footer.module.scss";
 const Footer: FC = () => {
   return (
     <div className={styles.footer}>
+      <hr />
       <div>
-        <br /> <p className={styles.footer_text}>&#9752; Kyiv, Ukraine</p>
+        <p className={styles.footer_text}>&#9752; Kyiv, Ukraine</p>
+        <p className={styles.copy}>&copy; 2021 - 2023</p>
       </div>
       <div>
         <p className={styles.footer_text}>for all requests: </p>

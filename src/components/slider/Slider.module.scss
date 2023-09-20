@@ -1,11 +1,8 @@
 .wrapper {
   margin-top: 10vh;
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 10vh;
-  @media (max-width: 760px) {
-    margin-bottom: 80vh;
-  }
 }
 .img_wrapper {
   display: flex;
@@ -13,7 +10,7 @@
     object-fit: cover;
     margin-right: 50px;
     @media (max-width: 760px) {
-      width: 250px;
+      width: 200px;
     }
     @media (min-width: 761px) {
       width: 350px;
@@ -22,7 +19,6 @@
   @media (max-width: 760px) {
     flex-wrap: wrap;
     font-size: 14px;
-    max-width: 300px;
   }
 }
 .name {
@@ -50,9 +46,6 @@
   border-radius: 100px;
   transition: 0.5s;
   color: #696363;
-  &:hover {
-    box-shadow: 3px 5px 12px rgb(143, 16, 16), -3px -5px 12px rgb(143, 16, 16);
-  }
   @media (max-width: 760px) {
     font-size: 20px;
     padding: 0 5px;

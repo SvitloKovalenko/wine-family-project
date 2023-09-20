@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .modal_wrapper.open {
@@ -22,8 +22,7 @@
 
 .modal_body {
   font-size: 14px;
-  font-family: "Caxton";
-  box-shadow: 10px 10px 15px #bfbfbf, -14px -14px 20px #bfbfbf;
+  font-family: Baskerville;
   max-width: 400px;
   margin: auto;
   background: rgb(156, 35, 35);

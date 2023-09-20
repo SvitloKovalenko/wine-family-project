@@ -1,10 +1,14 @@
 .wrapper {
+  width: 1400px;
+  max-width: 100%;
   margin: 0 auto;
   padding-right: 5vh;
   padding-left: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 .gallery {
-  background-image: url(../../../../public/moment.png);
+  // background-image: url(../../../../public/moment.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(196, 196, 196, 0.9);

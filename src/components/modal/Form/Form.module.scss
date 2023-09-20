@@ -1,6 +1,6 @@
 .myForm {
   caret-color: red;
-  text-align: center;
+  text-align: left;
   margin-top: 30px;
 }
 
@@ -11,12 +11,10 @@
   width: 100%;
   outline: none;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   background: #ecf0f3;
   padding: 10px;
   height: 40px;
-  border-radius: 50px;
-  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 .submit {
   font-size: 18px;
@@ -26,9 +24,4 @@
   background: #0f0f0f;
   cursor: pointer;
   font-weight: 700;
-  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-  transition: 0.5s;
-  &:hover {
-    box-shadow: none;
-  }
 }
