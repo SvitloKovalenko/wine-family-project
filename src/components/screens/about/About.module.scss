@@ -7,16 +7,12 @@
   padding-top: 5vh;
 }
 .about {
-  // background-image: url(../../../../public/taste.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
   background-color: rgba(196, 196, 196, 0.5);
   padding-bottom: 150px;
   @media (max-width: 760px) {
-    // max-width: 500px;
     padding-bottom: 50px;
   }
-  h3 {
+  .about_title {
     margin-top: 5vh;
     font-size: 50px;
     @media (max-width: 760px) {

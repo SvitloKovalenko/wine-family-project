@@ -6,8 +6,8 @@ const About: FC = () => {
   return (
     <div className={styles.about}>
       <div className={styles.wrapper}>
-        <h2>декілька фактів</h2>
-        <h3>Про нас</h3>
+        <h2 className={styles.about_subtitle}>декілька фактів</h2>
+        <h3 className={styles.about_title}>Про нас</h3>
         <Slider />
       </div>
     </div>
