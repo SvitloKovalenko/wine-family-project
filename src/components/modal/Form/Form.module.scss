@@ -15,6 +15,10 @@
   background: #ecf0f3;
   padding: 10px;
   height: 40px;
+  @media (max-width: 760px) {
+    padding: 5px;
+    height: 30px;
+  }
 }
 .submit {
   font-size: 18px;

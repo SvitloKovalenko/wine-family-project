@@ -12,12 +12,12 @@
   background-position: center;
   padding-top: 20vh;
   padding-bottom: 20vh;
-  h2 {
+  .subtitle {
     font-style: italic;
     color: #4d1d25;
-    padding-top: 10vh;
+    padding-top: 5vh;
   }
-  h3 {
+  .title {
     color: #4d1d25;
 
     @media (max-width: 760px) {

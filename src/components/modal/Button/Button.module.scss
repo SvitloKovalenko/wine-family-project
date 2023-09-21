@@ -6,18 +6,18 @@
   cursor: pointer;
   font-weight: 300;
   @media (max-width: 760px) {
-    padding: 5px 10px;
+    padding: 5px 15px;
     font-size: 13px;
   }
   @media (min-width: 761px) {
-    padding: 15px 20px;
+    padding: 15px 25px;
     font-size: 16px;
   }
 
   &:hover {
     background: linear-gradient(57deg, rgb(143, 16, 16), #376e6f);
     background-size: 400% 400%;
-    animation: gradient-transition 3s ease infinite;
+    animation: gradient-transition 3s ease-in-out;
 
     @keyframes gradient-transition {
       0% {

@@ -5,8 +5,8 @@ const Degustation: FC = () => {
   return (
     <div className={styles.degustation}>
       <div className={styles.wrapper}>
-        <h3>смакуйте знання</h3>
-        <h2>наші послуги:</h2>
+        <h3 className={styles.title}>смакуйте знання</h3>
+        <h2 className={styles.subtitle}>наші послуги:</h2>
         <ul className={styles.list}>
           <li>
             <p>Професійна дегустація вин та інших спиртних напоїв</p>

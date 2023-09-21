@@ -12,8 +12,6 @@
   display: flex;
   align-items: center;
   background-image: url(../../../../public/bg.jpg);
-  // background-image: url(../../../../public/rose.jpg);
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -47,5 +45,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-evenly;
+    background-image: url(../../../../public/rose.jpg);
   }
 }
